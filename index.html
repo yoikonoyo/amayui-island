@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!--↓レスポンシブ対応-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天結島</title>
+
+
+   <meta name="description" content="東京都の知られざる離島天結島">
+  <link rel="stylesheet" href="css/style.css">
+
+
+<!--ファビコン-->
+<link rel="icon" type="image/svg" href="images/favicon.svg">
+
+
+<!--リセットCSS-->
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+<!--オリジナルCSS-->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- normalize.cssを直接インポート -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+</head>
+
+
+<body>
+  <div id="top"></div> <!--フローティングボタンのスクロール先の目印-->
+  <!--ヘッダー-->
+  <!-- Font Awesome CDN読み込み（ヘッダー内に追加） -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<div class="container">
+  <header class="site-header">
+    <div class="wrapper">
+    <!-- ロゴエリア -->
+      <div class="logo-area">
+        <a href="#top">
+            <img src="images/logo-name.svg" alt="天結島ロゴ">
+         </a>
+    </div>
+   
+    <!--ハンバーガーメニュー用のチェックボックス⇒チェックボックスはON/OFF（チェックを入れる/外す）の状態を切り替えられる-->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+   
+    <!-- ハンバーガーアイコン3本線を作るために必要。CSSでスタイルで幅や高さを設定 -->
+     <label for="menu-toggle" class="hamburger">
+      ☰ MENU</label>
+   
+    <!-- ナビゲーション -->
+    <nav class="nav">
+  <ul class="nav-list">
+    <li class="nav-item item-info">
+      <a href="#to-info-section">
+        <img src="images/nav1-info.svg" alt="お知らせアイコン">
+        <span>お知らせ</span>
+      </a>
+    </li>
+    <li class="nav-item item-tour">
+      <a href="index-meguru.html">
+        <img src="images/nav2-tour.svg" alt="巡るアイコン">
+        <span>巡る</span>
+      </a>
+    </li>
+    <li class="nav-item item-know">
+      <a href="#">
+        <img src="images/nav3-know.svg" alt="知るアイコン">
+        <span>知る</span>
+      </a>
+    </li>
+    <li class="nav-item item-exp">
+      <a href="#">
+        <img src="images/nav4-exp.svg" alt="体験アイコン">
+        <span>体験</span>
+      </a>
+    </li>
+    <li class="nav-item item-about">
+      <a href="#">
+        <img src="images/nav5-about.svg" alt="概要アイコン">
+        <span>組織概要</span>
+      </a>
+    </li>
+     <!-- English ボタンを追加 -->
+    <li class="nav-item nav-lang">
+      <a href="English-top.html" class="lang-btn">English</a>
+    </li>
+   </ul>
+ </nav>
+</div><!--.wrapper-->
+  </header>
+ 
+
+
+  <main>
+    <!-- Hero セクション -->
+    <section class="hero">
+      <div class="wrapper">
+
+    <!-- ウミガメと文字の画像（横長2行デザイン） -->
+    <div class="hero-logo">
+      <img src="images/hero-h1-final.svg" alt="きてみっちゃ天結島">
+    </div>
+      <div class="hero-content">
+        <p>やさしい風と 空へと続く道があります<br>果てしない水平線があり やさしく流れる時間があります</p>
+       <!-- <a href="#" class="hero-btn" title="準備中です">島内マップ</a>-->
+      </div><!--hero-content-->
+      </div> <!--wrapper-->
+     </section>
+
+  <section class="notice-section">
+    <div class="wrapper">
+  <h2 class="headline">注意事項</h2>
+  <p>
+    <strong>まずは宿の確保から！</strong><br>来島の際は、必ず事前に宿泊予約を済ませてから渡航の手配をお願いします。<br>
+    到着後に宿泊先を確保することは非常に困難ですので、どうぞご理解とご協力をお願いします。
+  </p>
+  <p class="notice">
+  <img src="images/alert-yellow.svg
+  " alt="注意" width="30" height="30">
+  <strong>野営（キャンプ・野宿など）は、村条例により禁止されています。</strong>
+</p>
+  </div> <!--wrapper-->
+</section>
+
+
+<div class="main-container">
+  <div class="content">
+    <section class="info-section">
+     <div class="wrapper">
+     <h2 class="headline-normal">お知らせ</h2>
+      <ul>
+       <li>
+        <p>           
+      日本全国170以上の離島の集い「アイランダー」に出展します。
+      <a href="https://www.i-lander.com/2025/index.php" class="btn" target="_blank" title="外部サイトへ移動"><i class="fas fa-info-circle"></i> </a>
+       </p>
+        </li>
+            <li>
+       <p>
+      企業研修・課外活動に関する設備をリニューアルしました。
+      <a href="" class="btn" title="準備中です"><i class="fas fa-info-circle"></i> </a>
+       </p>
+      </li>
+      <li>
+        <p>
+      島内産原料だけで作る「月桃餅」の通信販売を開始しました。
+      <a href="" class="btn" title="準備中です"><i class="fas fa-info-circle"></i> </a>
+        </p>
+       </li>
+      <li>
+        <p>
+      「東京愛らんどフェア2026」の会場内ボランティア募集中。
+      <a href="" class="btn" title="準備中です"><i class="fas fa-info-circle"></i> </a>
+        </p>
+       </li>
+      </ul>
+      </div> <!--wrapper-->
+    </section>
+       </div><!--content -->
+
+
+<!--クラウドファンディングバナー-->
+ <div class="aside-banner">
+  <div class="wrapper">
+    <a href="">
+      <img src="images/new-banner2.png" alt="天結島を応援しよう！">
+    </a>
+   </div>  <!--wrapper-->
+  </div>  <!--aside-banner-->
+</div><!--main-container-->
+
+
+<!--/* ドットリスト-->
+<!-- アイコンでリンク -->
+<section class="dot-list background">
+  <div class="wrapper">  <!-- wrapperで中央揃え -->
+    <a href="index-meguru.html"><img src="images/icon1-tour.svg" alt="巡る"></a>
+    <img src="images/icon2-know.svg" alt="知る">
+    <img src="images/icon3-exp.svg" alt="研修・学習">
+    <img src="images/icon4-about.svg" alt="組織概要">
+  </div>
+</section>
+
+
+<!-- scheduleセクション -->
+<section class="schedule">
+  <div class="wrapper">
+    <div class="schedule-title">
+      <h2 class="headline-normal">島を体験しよう</h2>
+      <p>
+        詳細・募集は開催日2カ月前に 
+        <a href="osirase.html" class="notice-link">お知らせページ</a> 
+        でご案内し、定員になり次第締め切らせていただきます。
+      </p>
+      <p>企業・学校関係者様およびグループでの参加は個別アレンジも可能です。お気軽にご相談ください。</p>
+      <p>体験以外のお問い合わせ・ご相談・ご意見等も下のメールフォームをご利用ください。</p>
+    </div>
+ 
+  <!-- 横並びラッパー -->
+    <div class="schedule-wrapper">
+      <!-- テーブル横スクロール用ラッパー -->
+      <div class="table-scroll">
+        <!-- スケジュール表 -->
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>月</th>
+              <th>実施予定プログラム</th>
+              <th class="capacity">募集人数</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="month">4月</td>
+              <td>島の自然観察教室＋天結神社祭り参加</td>
+              <td>20名</td>
+            </tr>
+            <tr>
+              <td class="month">5月</td>
+              <td>パーマカルチャー体験（モデルエリア滞在）</td>
+              <td>25名</td>
+            </tr>
+            <tr>
+              <td class="month">7月</td>
+              <td>塩づくり＋パッション農園夏実収穫体験</td>
+              <td>20名</td>
+            </tr>
+            <tr>
+              <td class="month">8月</td>
+              <td>空き家DIYワーク＋天の川撮影会</td>
+              <td>30名</td>
+            </tr>
+            <tr>
+              <td class="month">10月</td>
+              <td>特産品製造所見学・実習＋地域ワークショップ</td>
+              <td>15名</td>
+            </tr>
+            <tr>
+              <td class="month">11月</td>
+              <td>海辺のいきもの教室＋月桃餅づくり体験</td>
+              <td>20名</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+    <!-- お問い合わせフォーム -->
+    <div class="schedule-question">
+      <h3>お問い合わせ</h3>
+      <form action="" method="post" name="contact-form">
+        <!-- from action=""の""に#を入れるとトップへリンク、空欄にするとどこにも移動しない-->
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" placeholder="お名前を入力してください" required>
+          <!-- "お名前を入力してください"の後ろに半角あけてrequiredを入れると入力しないと先に進めないようにhtml5が自動的にポインターに表示してくれる-->
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" placeholder="メールアドレスを入力してください" required >
+        </div>
+
+        <div class="form-group">
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" placeholder="メッセージを入力してください" required></textarea>
+        </div>
+
+        <button type="button" class="submit-btn" title="準備中です">送信</button>
+      </form>
+    </div><!--schedule-question-->
+    </div><!--schedule-wrapper-->
+    </div> <!--wrapper-->
+   </section>
+
+ <section class="sns-section">
+  <div class="wrapper">
+    <h3 class="sns-title">情報発信中</h3>
+  <div class="sns-buttons">
+  <a href="#" class="sns-link instagram"><i class="fab fa-instagram"></i> 公式Instagram</a>
+  <a href="#" class="sns-link x"><i class="fab fa-x-twitter"></i> 公式X</a>
+  <a href="#" class="sns-link facebook"><i class="fab fa-facebook-f"></i> 公式Facebook</a>
+  </div><!--sns-buttons-->
+  </div><!--wrapper-->
+ </section>
+
+  </main>
+
+
+  <!-- フッター -->
+<footer>
+  <div class="wrapper">
+  <div class="footer-container">
+    <p>&copy; 天結島地域振興プロジェクト実行委員会<br>
+(Amayui Island Regional Development Project Committee)</p><!--テキストP205-->
+    <nav class="footer-nav">
+      <a href="#top">TOP</a> <!-- ここは #top に変更 -->
+      <a href="" title="準備中です">お知らせ</a>
+      <a href="index-meguru.html" title="準備中です">巡る</a>
+      <a href="" title="準備中です">知る</a>
+      <a href="" title="準備中です">組織概要</a>
+    </nav>
+  </div>
+  </div>
+</footer>
+</div><!-- container -->
+<!-- ページトップへフローティングボタン本体 -->
+<a href="#top" class="to-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>

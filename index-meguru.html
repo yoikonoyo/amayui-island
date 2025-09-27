@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>巡るページ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body> 
+  <div id="top"></div> <!--スクロール先の目印-->
+
+<div class="container">
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="wrapper">
+    <!-- ページTOP用アンカーをロゴの上に置く -->
+      <div id="to-top-anchor"></div>
+
+      <!-- ロゴのみトップページにリンク -->
+      <div class="logo-area">
+        <a href="index.html">
+          <img src="images/p2-logomark-color.svg" alt="天結島ロゴ">
+        </a>
+      </div>
+
+       <h2 class="page-title">天結島を巡る</h2>    
+   </div><!-- /.wrapper -->
+  </header>
+
+  <!-- メイン -->
+  <main class="meguru-page">
+
+    <!-- 上部 地図セクション -->
+      <p>海沿いの道にはサイクリングロードも整備されていて、アップダウンも少なめ。島を巡るなら自転車がいちばんおすすめです。<br>一周の所要時間はだいたい4時間。潮風を感じながら、のんびり流れる島の時間を楽しんでください。<br>途中には売店や自動販売機がありませんので、お飲み物や軽食の準備はお忘れなく。</p>
+
+<div class="map-container">
+  <!-- 地図画像 -->
+  <img src="images/p2-new-map.svg" alt="天結島の地図">
+
+  <!-- 神社 -->
+  <div class="icon shrine">
+    <img src="images/p2-shrine.svg" alt="神社">
+    <span class="tooltip">天結神社です</span>
+  </div>
+
+  <!-- 灯台 -->
+  <div class="icon lighthouse">
+    <img src="images/p2-light-house.svg" alt="灯台">
+    <span class="tooltip">天結小島灯台です</span>
+  </div>
+
+  <!-- 自然散策路 -->
+  <div class="icon nature">
+    <img src="images/p2-nature.svg" alt="自然散策路">
+    <span class="tooltip">自然散策路です</span>
+  </div>
+
+  <!-- 天の門 -->
+  <div class="icon sky-gate">
+    <img src="images/p2-sky-gate.svg" alt="天の門">
+    <span class="tooltip">天の門です</span>
+  </div>
+
+  <!-- 昼顔群生地 -->
+  <div class="icon flower">
+    <img src="images/p2-flower.svg" alt="昼顔群生地">
+    <span class="tooltip">昼顔の群生地です</span>
+  </div>
+
+  <!-- 特産品販売所 -->
+  <div class="icon shop">
+    <img src="images/p2-shop.svg" alt="特産品販売所">
+    <span class="tooltip">特産品販売所です</span>
+  </div>
+  </div><!-- map-container -->
+
+    <!-- 下部 写真＆説明セクション -->
+    <section class="places-section">
+      <div class="places-container">
+        <div class="place-card">
+          <img src="images/p2-shrine.png" alt="神社">
+          <h3>天結神社</h3>
+          <p>1959年に都指定文化財に指定。御祭神は天比女尊です。流星群を率いてこの地に降りた神々の一柱として崇められています。</p>
+        </div>
+        <div class="place-card">
+          <img src="images/p2-light-house.png" alt="灯台">
+          <h3>天結小島灯台</h3>
+          <p>初点灯は1902年3月11日。現在の建物は1950年に再建されたコンクリート造で、高さ34m。穏やかな海岸線と青い空に映える灯台が魅力です。</p>
+        </div>
+        <div class="place-card">
+          <img src="images/p2-nature.png" alt="自然散策路">
+          <h3>自然散策路</h3>
+          <p>風景、季節の香り、鳥や虫の音などを楽しめます。木漏れ日や小さな生き物、そして天然記念物との思いがけない出会いも魅力です。</p>
+        </div>
+        <div class="place-card">
+          <img src="images/p2-sky-gate.png" alt="天の門">
+          <h3>天の門</h3>
+          <p>全長約3kmの鍾乳洞。詳細は不明ですが、薄明かりに照らされる神秘的な空間は、昔の人々が天に続く道と信じたことを納得させてくれます。</p>
+        </div>
+        <div class="place-card">
+          <img src="images/2p-flower.png" alt="昼顔群生地">
+          <h3>昼顔群生地</h3>
+          <p>夏の西ノ浜海岸は紅紫色のグンバイヒルガオが一面に咲き誇り、訪れる人々を魅了します。潮風とほのかな花の香りが心地よい場所です。</p>
+        </div>
+        <div class="place-card">
+          <img src="images/p2-shop.png" alt="特産品販売所">
+          <h3>特産品販売所</h3>
+          <p>体験しよう！の「空き家DIY」で改装された古民家を利用しています。地元の特産品を揃えた販売所と茶房が併設され、休憩にも最適です。</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <p>&copy; 天結島地域振興プロジェクト実行委員会<br>
+      (Amayui Island Regional Development Project Committee)</p>
+      <nav class="footer-nav">
+        <a href="#to-top-anchor">ページTOPへ</a>
+        <a href="index.html">ホームへ</a>
+        <a href="" title="準備中です">組織概要</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+</div><!-- /.container -->
+<!-- ページトップへフローティングボタン本体 -->
+<a href="#top" class="to-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>
