@@ -200,7 +200,7 @@ a {
   width: 100%;
   height: 100px; /* 波画像の高さに合わせる */
   background: url(../images/hero-wave10.png) no-repeat bottom center;
-  background-size: contain;
+  background-size: cover;
   z-index: 1; /* 背景として下に */
 }
 /* ウミガメと文字の画像（Hero中央上部に配置） */
